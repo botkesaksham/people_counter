@@ -1,0 +1,66 @@
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,60,106,1) 29%, rgba(3,119,211,1) 51%, rgba(1,53,93,1) 76%, rgba(0,0,0,1) 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding-top: 5px; 
+    margin-bottom: 0;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+
+#increment-btn{
+    position: relative;
+    height: 30px;
+    width: 200px;
+    background-color:rgb(150, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+#increment-btn:hover{
+    border: 3px solid orange;
+
+}
+
+#save{
+    height: 30px;
+    margin-top: 0px;
+    width: 200px;
+    background-color:rgb(2, 79, 25);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+#save:hover{
+    border: 3px solid orange;
+}
+
+#save-El{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 600;
+}
